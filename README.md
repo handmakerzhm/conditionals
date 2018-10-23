@@ -95,18 +95,20 @@ if(color==='red'){
  }else if(color === 'blue'){
     alert(`You prefer ${color2} for the background`);
     websiteBackground.style.backgroundColor='blue';
-    
+
 }else if(color === 'purple'){
     alert(`You prefer ${color3} for the background`);
     websiteBackground.style.backgroundColor='purple';
 }
+
 else if(color === 'grey'){
     alert(`You prefer ${color4} for the background`);
     websiteBackground.style.backgroundColor='grey';
-}
-else if(color === 'black'){
+
+}else if(color === 'black'){
     alert(`You prefer ${color5} for the background`);
     websiteBackground.style.backgroundColor='black';
+
 }else{
     alert('Sorry :-(  The value does not match the available options. :-)');
 
