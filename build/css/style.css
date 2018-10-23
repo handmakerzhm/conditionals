@@ -1,0 +1,48 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+body {
+    background-color: #333;
+}
+ h1 {
+     color: rgb(248, 212, 7);
+     font-size: 7rem;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 200px;
+     margin-right: 50px;
+     display: flex;
+     justify-content: flex-end;
+     
+
+ }
+ h2 {
+     display: flex;
+     justify-content: flex;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+     font-size: 2rem;
+     margin: 30px -120px ;
+     padding-left: 70px;
+     background-color: rgb(248, 212, 7);
+     border-radius: 9px;
+     height: 80px;
+     letter-spacing: 1px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+}
+
+h3 {
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    letter-spacing: 1px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+}
+
+.fab {
+    font-size: 2rem;
+    color:yellow;
+    margin: 5px;
+    
+}
