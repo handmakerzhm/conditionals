@@ -99,7 +99,7 @@ if(color==='red'){
 }else if(color === 'purple'){
     alert(`You prefer ${color3} for the background`);
     websiteBackground.style.backgroundColor='purple';
-    
+
 }else if(color === 'grey'){
     alert(`You prefer ${color4} for the background`);
     websiteBackground.style.backgroundColor='grey';
@@ -137,7 +137,7 @@ let age = prompt('How old are you?');
  }else if(age<=50){
     alert('You are a mature adult that likes software engineering.');
 
-    }else if (age<=60){
+}else if (age<=60){
     alert('You are an experienced adult that likes software engineering.');
 
  }else{
