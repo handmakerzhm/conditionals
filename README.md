@@ -91,9 +91,11 @@ if(color==='red'){
 
     alert(`You prefer ${color1} for the background`);
     websiteBackground.style.backgroundColor='red';
+
  }else if(color === 'blue'){
     alert(`You prefer ${color2} for the background`);
     websiteBackground.style.backgroundColor='blue';
+    
 }else if(color === 'purple'){
     alert(`You prefer ${color3} for the background`);
     websiteBackground.style.backgroundColor='purple';

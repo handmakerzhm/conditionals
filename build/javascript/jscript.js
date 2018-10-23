@@ -16,21 +16,21 @@ Simple conditional check: For example, if you change any text or the name in the
 The example below checks out if you enter the correct answer. Else, you get the alert of the next condition. This is used to check two conditions. */
 
 
- let name = prompt('what is the programming language for web development?');
+//  let name = prompt('what is the programming language for web development?');
 
- if(name === 'javascript'){
-    // alert('Correct answer is Javascript');
-    alert(`Correct answer is ${name}`);
- }else{
-    alert(`Incorrect answer try again`);
-}
+//  if(name === 'javascript'){
+//     // alert('Correct answer is Javascript');
+//     alert(`Correct answer is ${name}`);
+//  }else{
+//     alert(`Incorrect answer try again`);
+// }
 
 /*Example: 3 
 The example below just combines some examples of different code that I've learned, on my adventure. The goal is creating some basic beginner friendly examples, that displays how they can be used together. */
 
 // let color = prompt('What color do you prefer for the background color? green,or sienna?');
 
-// let color1 = 'green';
+// let color = 'green';
 // let color2 = 'sienna';
 
 
@@ -71,9 +71,11 @@ The example below just combines some examples of different code that I've learne
 //   
 //     alert(`You prefer ${color1} for the background`);
 //     websiteBackground.style.backgroundColor='red';
+
 //  }else if(color === 'blue'){
 //     alert(`You prefer ${color2} for the background`);
 //     websiteBackground.style.backgroundColor='blue';
+
 // }else if(color === 'purple'){
 //     alert(`You prefer ${color3} for the background`);
 //     websiteBackground.style.backgroundColor='purple';
