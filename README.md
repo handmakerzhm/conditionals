@@ -52,7 +52,6 @@ let color2 = 'blue';
 let websiteBackground = document.querySelector('body');
 
 if(color === 'red'){
-    // alert('Correct answer is Javascript');
 
     alert(`You prefer ${color1} for the background`);
     websiteBackground.style.backgroundColor='red';
@@ -89,7 +88,7 @@ let color5 = 'black;'
 let websiteBackground = document.querySelector('body');
 
 if(color==='red'){
-    // alert('Correct answer is Javascript');
+
     alert(`You prefer ${color1} for the background`);
     websiteBackground.style.backgroundColor='red';
  }else if(color === 'blue'){
@@ -116,5 +115,32 @@ setTimeout (()=>
 alert('This is Javascript...{;-)'), 1500);
 ```
 ----
+
+#### Example: 5
+
+Demonstration of assignment operators with conditionals.
+```
+let age = prompt('How old are you?');
+
+  if(age<=19){
+     alert('You\'re a teenager that likes software engineering.');
+
+ }else if(age<=25){
+    alert('You are young and like software engineering.');
+    
+ }else if(age<=30){
+     alert('You are a young adult that likes software engineering.');
+   
+ }else if(age<=50){
+    alert('You are a mature adult that likes software engineering.');
+
+    }else if (age<=60){
+    alert('You are an experienced adult that likes software engineering.');
+
+ }else{
+    alert('You are fully developed and love software engineering.');
+ }
+
+```
 
 # To be continued...
