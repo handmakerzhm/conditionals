@@ -1,4 +1,6 @@
 
+alert('This is javascript');
+setTimeout(()=> alert('Look through the examples for references')),2000;
 /*Example: 1
 Simple conditional check: For example, if you change any text or the name in the variable the condition does not check out.*/
 
@@ -79,14 +81,15 @@ The example below just combines some examples of different code that I've learne
 // }else if(color === 'purple'){
 //     alert(`You prefer ${color3} for the background`);
 //     websiteBackground.style.backgroundColor='purple';
-// }
-// else if(color === 'grey'){
+
+// }else if(color === 'grey'){
 //     alert(`You prefer ${color4} for the background`);
 //     websiteBackground.style.backgroundColor='grey';
-// }
-// else if(color === 'black'){
+
+// }else if(color === 'black'){
 //     alert(`You prefer ${color5} for the background`);
 //     websiteBackground.style.backgroundColor='black';
+
 // }else{
 //     alert('Sorry :-(  The value does not match the available options. :-)');
 //     websiteBackground.style.backgroundColor='orangered';
@@ -115,4 +118,19 @@ The example below just combines some examples of different code that I've learne
 // }else{
 //     alert('You are fully developed and love software engineering.');
 // }
+
+/*Ternary operator: A short hand if statement
+syntax: let example = condition ? value: value2*/
+
+// let message = prompt('Are you 21 and older ? Please enter your age.');
+
+// let approval = (message>=21 )? 'You may enter the store':'You may not enter the store';
+
+// alert(approval);
+
+
+
+
+
+
 

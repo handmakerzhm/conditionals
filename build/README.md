@@ -145,5 +145,18 @@ let age = prompt('How old are you?');
  }
 
 ```
+# Ternary operator
 
-# To be continued...
+_Short hand if statement._
+
+_Ternary operator: A short hand if statement._
+
+>syntax: let example = condition ? value : value2
+```
+let message = prompt('Are you 21 and older ? Please enter your age.');
+
+let approval = (message>=21 )? 'You may enter the store':'You may not enter the store';
+
+alert(approval);
+```
+
