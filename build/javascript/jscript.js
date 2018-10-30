@@ -119,14 +119,44 @@ The example below just combines some examples of different code that I've learne
 //     alert('You are fully developed and love software engineering.');
 // }
 
-/*Ternary operator: A short hand if statement
-syntax: let example = condition ? value: value2*/
+/*Ternary operator: A short hand if statement a check for a condition with two possible answers.
+syntax: condition ? value: value2*/
 
 // let message = prompt('Are you 21 and older ? Please enter your age.');
 
 // let approval = (message>=21 )? 'You may enter the store':'You may not enter the store';
 
 // alert(approval);
+
+
+/*Swith statment: */
+
+// let question = prompt('choose move1, move2, move3, or move4');
+
+// switch (question) {
+//         case 'move1':
+//         alert('You encountered javascript');
+//         break;
+
+//         case 'move2':
+//         alert('You encountered the alert box'); break;
+
+//         case 'move3':
+//         alert('You encountered an unidentified specimen');
+//         break;
+
+//         case 'move4':
+//         alert('You encountered a glitch in the matrix ');
+//         break;
+
+//         default:
+//         alert('You are not ready for an Adventure');
+//         break;
+//         }
+      
+   
+
+
 
 
 
